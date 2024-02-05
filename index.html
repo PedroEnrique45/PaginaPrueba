@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Del diseño de impresos al diseño Web</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    <h3>Buenas tardes</h3>
-    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa velit dolores, labore nulla fugit. Placeat, dolorum aliquid. Ipsum iure vitae quaerat dignissimos, labore illum laudantium sit ducimus quos consequuntur?</h4>
+    <div id="container">
+
+        <div include-html="./partials/header.html"></div>
+        <div include-html="./partials/main-menu.html"></div>
+        <div include-html="./partials/aside.html"></div>
+        <div include-html="./partials/content.html"></div>
+        <div include-html="./partials/footer.html"></div>
+    
+    </div>
+    <script src="js/include-html.js"></script>
+ 
 </body>
 </html>
